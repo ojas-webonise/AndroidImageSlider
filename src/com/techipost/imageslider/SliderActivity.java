@@ -15,8 +15,6 @@ import java.util.TimerTask;
 public class SliderActivity extends Activity {
 
     public int currentimageindex=0;
-    Timer timer;
-    TimerTask task;
     ImageView slidingimage, steadyImage;
 
     private int[] IMAGE_IDS = {
